@@ -39,13 +39,12 @@ Aplikasi ini menggunakan pendekatan microservices yang memisahkan frontend dan b
 
 1. Masuk ke folder proyek Flutter.
 2. Jalankan `flutter pub get` untuk mengambil dependensi.
-3. Jalankan aplikasi menggunakan `flutter run -d chrome --web-port=59106`.
-
-Catatan: Jika menggunakan port yang berbeda dari 59106, pastikan menyesuaikan bagian `allowed_origins` pada file `config/cors.php` di Laravel. Jika tidak, bisa terjadi error CORS saat Flutter mengakses API.
+3. Jalankan aplikasi menggunakan `flutter run -d chrome`.
 
 ## Cara Menjalankan Aplikasi
 
 * Pastikan server Laravel berjalan terlebih dahulu agar API dapat diakses.
+* Jalankan ngrok http 8000, lalu ganti baseUrl di file task_service.dart dengan kode ngrok yang baru.
 * Jalankan Flutter web untuk memulai aplikasi antarmuka.
 * Flutter akan berkomunikasi dengan API Laravel secara langsung.
 
