@@ -54,6 +54,8 @@ Catatan: Jika menggunakan port yang berbeda dari 59106, pastikan menyesuaikan ba
 
 
 
+https://github.com/user-attachments/assets/5f25e29e-ee3a-4f7c-a755-64084aeb6dec
+
 
 
 
